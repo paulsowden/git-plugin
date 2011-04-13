@@ -126,7 +126,8 @@ public class GitPublisher extends Recorder implements Serializable, MatrixAggreg
 
         // during matrix build, the push back would happen at the very end only once for the whole matrix,
         // not for individual configuration build.
-        if (build instanceof MatrixRun) {
+	Object tmp = build;
+        if (tmp instanceof MatrixRun) {
             return true;
         }
 
