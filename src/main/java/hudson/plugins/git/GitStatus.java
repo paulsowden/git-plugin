@@ -9,7 +9,7 @@ import hudson.model.RootAction;
 import hudson.scm.SCM;
 import hudson.triggers.SCMTrigger;
 
-import org.spearce.jgit.transport.RemoteConfig;
+import org.eclipse.jgit.transport.RemoteConfig;
 import org.eclipse.jgit.transport.URIish;
 
 import org.kohsuke.stapler.StaplerRequest;
