@@ -10,7 +10,7 @@ import hudson.scm.SCM;
 import hudson.triggers.SCMTrigger;
 
 import org.spearce.jgit.transport.RemoteConfig;
-import org.spearce.jgit.transport.URIish;
+import org.eclipse.jgit.transport.URIish;
 
 import org.kohsuke.stapler.StaplerRequest;
 import org.kohsuke.stapler.StaplerResponse;
@@ -20,7 +20,6 @@ import static javax.servlet.http.HttpServletResponse.SC_OK;
 import java.io.IOException;
 
 import java.util.logging.Logger;
-import static java.util.logging.Level.INFO;
 
 /**
  * Information screen for the use of Git in Hudson.
